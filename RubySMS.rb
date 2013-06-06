@@ -1,4 +1,5 @@
 def account_info()
+	# get the users account info
 	print "\n=>  Note: Your 'Account SID' and 'Auth Token' can be found on the Twilio.com user dashboard\n\n"
 	print "[*] Enter your Account SID: "
 	$accountsid = gets.chomp # Twilio Account SID 
