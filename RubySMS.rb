@@ -53,7 +53,7 @@ end
 require "twilio-ruby"
 print "OK!\n"
 
-#continue program since they have the gem
+#main program routine
 print "\n Welcome to RubySMS!\n"
 print "+-=-=-=-=-=-=-=-=-=+"
 print "\n\nWould you like to send a Text message to a cell phone? (Y/N): "
