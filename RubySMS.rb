@@ -10,7 +10,7 @@ def account_info()
 end
 
 def prep_and_send()
-	# Who do you want to text? Enter message, and send!
+	# who do you want to text? enter message, and send!
 	print "[*] Enter the number you want to Text: "
 	$recipient = "+1"+gets.chomp
 	print "[*] Enter your message: "
@@ -42,7 +42,7 @@ def prep_and_send()
 end
 
 
-#check if the required gem is installed. install if not found!
+# check if the required gem is installed. install if not found!
 print "\n[*] Checking for twilio-ruby... "
 begin
 	gem "twilio-ruby"
@@ -53,7 +53,7 @@ end
 require "twilio-ruby"
 print "OK!\n"
 
-#main program routine
+# the main program routine
 print "\n Welcome to RubySMS!\n"
 print "+-=-=-=-=-=-=-=-=-=+"
 print "\n\nWould you like to send a Text message to a cell phone? (Y/N): "
