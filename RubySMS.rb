@@ -10,7 +10,7 @@ def account_info()
 end
 
 def prep_and_send()
-	# target number, enter message, and send!
+	# Who do you want to text? Enter message, and send!
 	print "[*] Enter the number you want to Text: "
 	$recipient = "+1"+gets.chomp
 	print "[*] Enter your message: "
@@ -42,7 +42,7 @@ def prep_and_send()
 end
 
 
-
+#check if the required gem is installed. install if not found!
 print "\n[*] Checking for twilio-ruby... "
 begin
 	gem "twilio-ruby"
