@@ -1,6 +1,4 @@
 RubySMS
 =======
 
-Send text messages from your computer to cell phones all around the world!
-
-Requires a Twilio account, which can be obtained FREE @ http://www.twilio.com
+Uses twilio to send SMS messages to a mobile cell phone number. This was an experiment in using the Twilio API :)
