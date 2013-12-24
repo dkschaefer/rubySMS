@@ -1,4 +1,3 @@
 RubySMS
 =======
-
-Uses twilio to send SMS messages to a mobile cell phone number. This was an experiment in using the Twilio API :)
+send text messages to a cell phone number through your computer! This was an experiment in using the Twilio API :)
